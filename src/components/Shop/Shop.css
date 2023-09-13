@@ -1,0 +1,38 @@
+.shop-container{
+display: grid;
+grid-template-columns: 3fr 1fr;
+/* border: 1px solid slateblue; */
+width: 98vw;
+}
+
+.products-container{
+/* border: 1px solid greenyellow; */
+margin: 10px 20px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+}
+
+.cart-container{
+/* border: 1px solid gold; */
+/* height: 60vh; */
+/* margin: 10px 20px;
+padding: 10px 20px; */
+
+}
+
+.shop-order-review-button{
+  background-color: rgb(1, 155, 129);
+  width: 100%;
+  height: 40px;
+  font-size: 1em;
+  border-radius: 15px 0px;
+  border: none;
+  margin-top:15px;
+  cursor:pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  color: gold;
+}

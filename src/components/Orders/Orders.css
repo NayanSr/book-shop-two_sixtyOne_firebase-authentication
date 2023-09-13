@@ -1,0 +1,7 @@
+.order-summary{
+  width: 60%;
+  background-color: rgb(249, 232, 202);
+  margin: 35px auto 100px;
+  box-shadow:rgb(14, 122, 0) -5px 5px 0px 5px;
+  padding: 25px;
+}

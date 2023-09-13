@@ -1,0 +1,8 @@
+.checkOut-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  padding: 50px;
+  background-color: steelblue;
+}
