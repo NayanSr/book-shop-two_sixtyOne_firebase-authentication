@@ -16,13 +16,14 @@ justify-content: space-between;
 .header-links{
   padding: 5px 10px;
   margin: auto 0;
+  /* width: 100%; */
 }
 
 .header-links a{
   /* margin: 5px 20px; */
   text-decoration: none;
   color: rgb(152, 4, 4);
-  font-weight: 600;
+  font-weight: 700;
   padding: 10px 10px;
 
   /* font-size: 2.0em; */
