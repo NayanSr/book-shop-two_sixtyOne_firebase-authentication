@@ -19,10 +19,12 @@ const AuthProvider = ({ children }) => {
   const auth = getAuth(app);
 
   const createNewUser = (email, password) => {
+    setLoading(true);
     return createUserWithEmailAndPassword(auth, email, password);
   };
 
   const signin = (email, password) => {
+    setLoading(true);
     return signInWithEmailAndPassword(auth, email, password);
   };
 
