@@ -1,10 +1,11 @@
 import { useContext } from "react";
 import "./Login.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 
 const Login = () => {
   const { signin } = useContext(AuthContext);
+  const navigate = useNavigate();
 
   const handleLogin = (event) => {
     event.preventDefault();
@@ -22,6 +23,7 @@ const Login = () => {
       .catch((error) => {
         console.log(error.message);
       });
+    navigate("/orders");
   };
 
   return (
@@ -53,7 +55,6 @@ const Login = () => {
           </Link>
         </small>
       </p>
-      {/* <h2>{user}</h2> */}
     </div>
   );
 };

@@ -8,6 +8,7 @@ const Header = () => {
 
   const handleLogout = () => {
     logOut()
+      // eslint-disable-next-line no-unused-vars
       .then((result) => {})
       .catch((error) => console.log(error));
   };
